@@ -54,7 +54,13 @@ innerBounds=300
 seeds=[]
 port=13803
 #dht 版本还不稳定，暂时限定较小的连接数
-maxConnnectNum=50
+maxConnectNum=300
+#区块轻广播最低区块大小，1k
+minLtBlockSize=1
+# 禁止通过局域网发现节点
+disableFindLANPeers=false
+# 是否配置为全节点模式，全节点保存所有分片数据
+isFullNode=false
 
 
 [rpc]
